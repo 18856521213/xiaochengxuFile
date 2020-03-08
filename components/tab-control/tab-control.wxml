@@ -1,0 +1,14 @@
+<!--components/tab-control/tab-control.wxml-->
+<view class="title-box">
+<block wx:for="{{titles}}" wx:key="index">
+
+  <view 
+      class='title-item {{currentIndex == index ? "active" : ""}}'
+      bindtap="handleClickTitle"
+      data-index="{{index}}"
+      >
+   {{item}}
+   </view>
+ 
+</block>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图展示位 -->
+<view>
+  <w-swiper swiper="{{swiper}}" />
+</view>
+<!-- 中型分类 -->
+<view>
+<w-sort recommend="{{recommend}}"/>
+</view>
+<!-- taber -->
+<view>
+<tab-control titles="{{titles}}"/>
+</view>
+<view>dhh</view>

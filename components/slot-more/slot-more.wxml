@@ -1,0 +1,4 @@
+<!--components/slot-more.wxml-->
+<text>我是头部</text>
+<slot></slot>
+<text>我是尾部组件</text>

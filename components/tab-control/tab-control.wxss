@@ -1,0 +1,20 @@
+/* components/tab-control/tab-control.wxss */
+.title-box{
+  width:100%;
+  height:88rpx;
+  background-color:white;
+  display: flex;
+  border-bottom:1px solid #cecece;
+}
+.title-item{
+  flex:1;
+  text-align: center;
+  line-height: 88rpx;
+  color:#494949;
+  font-size:32rpx;
+
+}
+.active{
+  color:#fc6868;
+  border-bottom:#fc6868 6rpx solid;
+}

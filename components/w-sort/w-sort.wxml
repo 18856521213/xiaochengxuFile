@@ -1,0 +1,9 @@
+<!--components/w-sort/w-sort.wxml-->
+<view class="sort">
+  <block wx:for="{{recommend}}" wx:key="index">
+    <view class="sort-item">
+      <image src="{{item.image}}" mode="widthFix"/>   
+      <view>{{item.title}}</view>
+    </view>    
+  </block>
+</view>

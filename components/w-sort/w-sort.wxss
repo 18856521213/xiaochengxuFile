@@ -1,0 +1,19 @@
+/* components/w-sort/w-sort.wxss */
+.sort{
+  display: flex;
+  padding:30rpx 0;
+  border-bottom:20rpx solid #f6f6f6;
+} 
+.sort .sort-item{
+    flex:1;
+    text-align: center;
+}
+.sort .sort-item view{
+
+  color:#949494;
+  font-size: 24rpx;
+}
+.sort .sort-item image{
+  width:160rpx;
+
+}

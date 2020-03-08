@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+   "slot-more":"/components/slot-more/slot-more",
+   "tab-control":"/components/tab-control/tab-control",
+   "w-swiper":"/components/swiper/swiper",
+   "w-sort":"/components/w-sort/w-sort"
+
+  }
+}
